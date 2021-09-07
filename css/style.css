@@ -509,7 +509,7 @@
 
 /*Introduction Pages*/
 /*introduce-box*/
-.introduction-main .introduce-box{
+.introduce-box , .product-header{
     background: url('../images/intro-gradient.png') no-repeat;
     padding-top: 100px;
 }
@@ -593,4 +593,32 @@
 /*SHip*/
 .header-title.ship {
     font-size: 36px;
+}
+
+/************************************/
+/*Product-box*/
+.product-title{
+    margin: 50px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--primary-color);
+}
+.product-title > a{
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+}
+.product-cafe a> img{
+    margin-bottom: 5px;
+}
+.product-cafe .product-name{
+    font-size: 16px;
+    font-family: "Lato Bold", sans-serif;
+}
+.product-cafe .product-price{
+    color:var(--primary-color) ;
+    font-size: 16px;
+    padding-top: 5px;
 }

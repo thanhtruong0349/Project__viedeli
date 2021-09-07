@@ -125,9 +125,11 @@
         width: 60%;
         height: auto;
         margin-left: 50px !important;
-        padding-bottom: 30px;
-       
-        
+        padding-bottom: 30px; 
+    }
+    /*product-box*/
+    .pproduct-cafe{
+       padding: 0;
     }
     
 }
@@ -285,6 +287,16 @@ Media query chung
         width: 80%;
         height: auto;
         padding-bottom: 30px;
+    }
+    /*Product*/
+    .product-header{
+        padding-left: 10px;
+    }
+    .product-main{
+        padding-left: 10px;
+    }
+    .product-cafe{
+        margin-bottom: 10px;
     }
     
 }
