@@ -509,7 +509,7 @@
 
 /*Introduction Pages*/
 /*introduce-box*/
-.introduce-box , .product-header{
+.introduce-box , .product-header, .newslatest-box ,.markServices-box{
     background: url('../images/intro-gradient.png') no-repeat;
     padding-top: 100px;
 }
@@ -622,3 +622,93 @@
     font-size: 16px;
     padding-top: 5px;
 }
+
+/*News-box*/
+.above-news{
+    margin-top: 30px;
+}
+.news-highlight{
+    color: var(--primary-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: "Lato Bold",sans-serif;
+}
+.newslatest-box .news-title--above{
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+.newslatest-box .above-news p{
+    font-size: 16px;
+}
+.news-center{
+    margin-top: 50px;
+}
+.news-center .news-highlight{
+    padding: 20px 0;
+    font-size: 14px;
+}
+.news-center--content h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.news-center--content p{
+    font-size: 16px;
+}
+.news-center--item{
+    margin-bottom: 50px;
+}
+.news-changes---dot{
+   text-align: center;
+}
+.news-changes---dot span.active ,.news-changes---dot span:hover{
+    background: var(--primary-color);
+    color: #fff;
+}
+.news-changes---dot span{
+    display: inline-block;
+    color: var(--primary-color);
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+/*************************************/
+/*Mark*/
+.content-right-img {
+    margin-top: -100px;
+    text-align: right;
+}
+.list-address{
+    font-size: 16px;
+    color: var(--primary-color);
+    margin-top: 40px;
+    padding: 8px;
+    border-bottom: 2px solid var(--primary-color);
+    cursor: pointer;
+    width: 300px;
+}
+.mark-center-box{
+    margin-top: 50px;
+}
+.mark-center-box .mark-title{
+    padding: 20px 0 10px 0;
+    font-size: 26px;
+    font-family: :"Lato Bold",sans-serif;
+}
+.mark-center-box p{
+    padding-bottom: 20px;
+}
+.mark-center--item{
+    margin-bottom: 50px;
+}
+.mark-center-box .read-more{
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color) ;
+    font-family: "Lato Light" ,sans-serif;
+    padding: 7px 15px 7px 15px;
+    font-size: 16px;
+}
+

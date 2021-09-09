@@ -90,6 +90,11 @@
     .story-content {
         height: 100vh;
     }
+    /*mark*/
+    .content-right-img{
+        margin-top: 20px;
+    }
+
 
 }
 
@@ -128,9 +133,13 @@
         padding-bottom: 30px; 
     }
     /*product-box*/
-    .pproduct-cafe{
+    .product-cafe{
        padding: 0;
     }
+    /*Mark*/
+    .content-right-img{
+        margin-top: -38px;
+     }
     
 }
 
@@ -298,5 +307,21 @@ Media query chung
     .product-cafe{
         margin-bottom: 10px;
     }
+    /*News*/
+    .newslatest-box .container{
+        padding-left: 10px;
+    }
+    .newslatest-box .news-center{
+        margin: 0 auto;
+    }
+    /*Mark*/
+    .markServices-box .container{
+        padding-left: 10px;
+    }
+    
+    .mark-center--item{
+        padding: 30px 10px 30px 20px;
+        margin: 0 auto;
+    } 
     
 }
