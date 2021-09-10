@@ -94,7 +94,18 @@
     .content-right-img{
         margin-top: 20px;
     }
+    /*Promotion-page*/
+    .promotion-box--item img{
+        height: 550px;
+        position: relative;
+        object-fit: fill;
+        object-position: bottom;
 
+    }
+    .promotion-box--item .promotion-item--content{
+        position: absolute;
+        left: 20px;
+    }
 
 }
 
@@ -140,6 +151,12 @@
     .content-right-img{
         margin-top: -38px;
      }
+     /*Promotion*/
+     .promotion-box--item .promotion-item--content{
+        position: absolute;
+        top: 15px;
+        height: 320px;
+    }
     
 }
 
@@ -179,8 +196,12 @@
         height: auto;
         margin-left: 50px !important;
         padding-bottom: 30px;
+    }
+    /*Promotion*/
+    .promotion-box--item .promotion-item--content{
+        position: absolute;
+        top: 50px;
        
-        
     }
 }
 
@@ -323,5 +344,11 @@ Media query chung
         padding: 30px 10px 30px 20px;
         margin: 0 auto;
     } 
-    
+    /*Promotion*/
+    .promotion-box .container{
+        padding-left: 10px;
+    }
+    .promotion-box--item img{
+        position: relative;
+    }
 }
