@@ -602,7 +602,7 @@
     padding-bottom: 10px;
     border-bottom: 1px solid var(--primary-color);
 }
-.product-title > a{
+h2.product-title > a{
     display: inline-block;
     float: right;
     margin-right: 5px;
@@ -696,7 +696,7 @@
 .mark-center-box .mark-title{
     padding: 20px 0 10px 0;
     font-size: 26px;
-    font-family: :"Lato Bold",sans-serif;
+    font-family:"Lato Bold",sans-serif;
 }
 .mark-center-box p{
     padding-bottom: 20px;
@@ -735,7 +735,6 @@
 }
 .promotion-box--item:nth-child(even) .promotion-item--content{
     background: #fff;
-    color: ;
 }
 .promotion-item--content a:first-child{
     display: inline-block;
@@ -761,9 +760,7 @@
 .promotion-box--item:nth-child(odd) .promotion-item--content a{
     color: #fff;
 }
-.promotion-box--item:nth-child(odd) .promotion-item--content a{
 
-}
 .promotion-box--item .promotion-title{
     font-size: 28px;   
     font-family: "Lato Bold" ,sans-serif;
