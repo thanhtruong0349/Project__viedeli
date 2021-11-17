@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
 </head>
 
 <body>
@@ -57,23 +60,14 @@
         <!--End .container-->
     </header>
     <!--End .header-->
-    <section class="main-slide">
-        <img src="images/banner.png" alt="">
-        <div class="main-slide__controls">
-            <span class="main-slide--prev">
-                <i class="fa fa-angle-left" aria-hidden="true"></i>
-            </span>
-            <span class="main-slide--next">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </span>
-        </div><!--End .main-slide__controls-->
-
-        <div class="main-slide__dots">
-            <span class="main-slide--dot"></span>
-            <span class="main-slide--dot"></span>
-            <span class="main-slide--dot active"></span>
-            <span class="main-slide--dot"></span>
-        </div><!--End .main-slide__dots-->
+    <section id="main-slide" class="owl-carousel owl-theme">
+        <div class="item" data-hash="one">
+            <img src="images/banner.png" alt=""/>
+        </div>
+        <div class="item" data-hash="two">
+            <img src="images/banner-2.png" alt=""/>
+        </div>
+       
 
     </section><!--End .main-slide-->
 
@@ -205,10 +199,29 @@
         </div>
     </section><!--End .news-box-->
 
-    <section class="section-box partner-box">
+    <section class="section-box partner-box ">
+        <h2 class="section-title">Đối tác</h2>
         <div class="container">
-            <h2 class="section-title">Đối tác</h2>
-            <div class="row partner-box__list">
+            <div id="partnerSlider" class="owl-carousel owl-theme">
+                <div class="item" data-hash="one">
+                    <img src="images/partner-1.png" alt="">
+                </div>
+                <div class="item" data-hash="two">
+                    <img src="images/partner-2.png" alt="">
+                </div>
+                <div class="item" data-hash="three">
+                    <img src="images/partner-3.png" alt="">
+                </div>
+                <div class="item" data-hash="four">
+                    <img src="images/partner-4.png" alt="">
+                </div>
+        
+            </div>
+            
+        </div>
+        
+            <!-- <div class="row partner-box__list">
+
                 <div class="col-lg-3 col-xs-6 partner-box--item">
                     <a href="#"><img src="images/partner-1.png" alt=""></a>
                 </div>
@@ -221,8 +234,8 @@
                 <div class="col-lg-3 col-xs-6 partner-box--item">
                     <a href="#"><img src="images/partner-4.png" alt=""></a>
                 </div>
-            </div>
-        </div>
+            </div> -->
+      
     </section><!--End .partner-box-->
 
     <footer class="footer">
@@ -233,25 +246,25 @@
                 </div>
                 <div class="col-lg-4 col-xs-12 col-sm-12 contact-box--item">
                     <div class="contact-box--form">
-                        <form action="">
+                        <form action="" id="commendForm">
                             <h2 class="section-title">Liên hệ mua hàng</h2>
 
                             <div class="form-group has-icon user-icon">
-                                <input type="text" name="" placeholder="Họ và tên"/>
+                                <input type="text" name="name" placeholder="Họ và tên" required/>
                             </div>
 
                             <div class="form-group has-icon email-icon">
-                                <input type="email" name="" placeholder="Email"/>
+                                <input type="email" name="email" placeholder="Email" required/>
                             </div>
 
                             <div class="form-group has-icon phone-icon">
-                                <input type="text" name="" placeholder="Số điện thoại"/>
+                                <input type="tel" name="phone" placeholder="Số điện thoại" required/>
                             </div>
 
                             <div class="form-group contact-box--form--button-wrap">
                                 <div class="row">
                                     <div class="col-lg-5 col-xs-12">
-                                        <button type="submit">Liên hệ</button>
+                                        <button type="submit" id="submit">Liên hệ</button>
                                     </div>
                                     <div class="col-lg-7 col-xs-12">
                                         <div class="contact-box--form__hotline">
@@ -337,5 +350,8 @@
         </section><!--End .footer-inner-->
     </footer><!--End .footer-->
 </body>
-
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/index.js"></script>
 </html>

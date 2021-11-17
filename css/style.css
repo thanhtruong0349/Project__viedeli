@@ -3,6 +3,24 @@
 
 /*Header - Begin*/
 
+.owl-carousel .owl-nav button i{
+    font-size: 25px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+/*parnert-box*/
+#partnerSlider.owl-carousel .owl-item img{
+    max-width: 150px;
+    height: 50px;
+}
 .header {
     padding: 25px 0px;
     position: relative;
