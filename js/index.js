@@ -1,4 +1,14 @@
 $(document).ready(function(){
+    
+    $("#search-icon").click(function(){
+        if($("#search").hasClass("show")){
+            $("#search").hide();
+        }else{
+            $("#search").addClass("show");
+            $("#search").show();
+        }
+    });
+       
     $('#main-slide').owlCarousel({
         loop: true,
         margin: 10,
@@ -95,5 +105,8 @@ $(document).ready(function(){
             alert('Validate thành công');
          
         }
+        
     });
+
+  
 });
